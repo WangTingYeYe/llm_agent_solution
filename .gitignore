@@ -1,0 +1,49 @@
+# Python 编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+env/
+.venv/
+ENV/
+
+# IDE 配置文件
+.idea/
+.vscode/
+.vs/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 日志与数据库
+*.log
+*.sqlite
+*.db
+
+# 打包文件
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+
+# 测试相关
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 环境变量文件
+.env
+.env.local
+.env.development
+.env.production
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/
+
+# macOS 系统文件
+.DS_Store
